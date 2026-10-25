@@ -1,4 +1,4 @@
-# Accounts REST API Service
+# DevOps Capstone
 
 [![CI Build](https://github.com/shraddha29-ux/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/actions/workflows/ci-build.yaml)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
