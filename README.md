@@ -1,13 +1,26 @@
-# DevOps Capstone
+# Simple Interest Calculator
 
-[![CI Build](https://github.com/shraddha29-ux/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/actions/workflows/ci-build.yaml)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
-## Introduction
-The Accounts REST API service provides a robust backend microservice to manage customer account records supporting full CRUD (Create, Read, Update, Delete) operations, secured with Talisman headers and CORS policies.
+A lightweight Python script/command-line tool designed to calculate simple interest based on principal amount, annual interest rate, and time period in years.
 
 ## Features
-- **RESTful API**: Supports CRUD operations for customer accounts.
-- **Continuous Integration**: Automated linting and unit testing via GitHub Actions.
-- **Security**: Built-in HTTP security headers using Talisman and Cross-Origin Resource Sharing (CORS).
-- **Containerized & Orchestrated**: Runs inside Docker containers and deployed to Kubernetes.
+- Calculates simple interest accurately using the standard formula.
+- Accepts user input for principal, rate of interest, and time duration.
+- Clean, readable, and easy-to-use codebase.
+
+## Formula
+Simple Interest ($SI$) is calculated with the following formula:
+
+$$SI = \frac{P \times R \times T}{100}$$
+
+Where:
+* **P** = Principal amount
+* **R** = Annual interest rate (in percentage)
+* **T** = Time period (in years)
+
+## Prerequisites
+Ensure you have Python installed on your system to run the script.
+
+## Usage
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
